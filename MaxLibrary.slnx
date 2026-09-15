@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="MaxBots.AspNetCore.Webhook/MaxBots.AspNetCore.Webhook.csproj" />
+  <Project Path="MaxBots.Client/MaxBots.Client.csproj" />
+  <Project Path="MaxBots.LongPolling/MaxBots.LongPolling.csproj" />
+  <Project Path="MaxBots.Meta/MaxBots.Meta.csproj" />
+</Solution>

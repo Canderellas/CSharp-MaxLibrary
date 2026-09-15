@@ -1,0 +1,15 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\MaxBots.LongPolling\\LongPolling",
+    "\\MaxBots.Meta\\Api",
+    "\\MaxBots.Meta\\Api\\Methods",
+    "\\MaxBots.Meta\\obj",
+    "\\MaxBots.Meta\\obj\\Release\\net10.0",
+    "\\MaxLibrary\\obj",
+    "\\MaxLibrary\\obj\\Debug",
+    "\\MaxLibrary\\obj\\Debug\\net10.0"
+  ],
+  "SelectedNode": "\\MaxBots.Client",
+  "PreviewInSolutionExplorer": false
+}

@@ -1,0 +1,15 @@
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Client\obj\Debug\net10.0\MaxBots.Client.csproj.AssemblyReference.cache
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Client\obj\Debug\net10.0\MaxBots.Client.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Client\obj\Debug\net10.0\MaxBots.Client.AssemblyInfoInputs.cache
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Client\obj\Debug\net10.0\MaxBots.Client.AssemblyInfo.cs
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Client\obj\Debug\net10.0\MaxBots.Client.csproj.CoreCompileInputs.cache
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Client\bin\Debug\net10.0\MaxBots.Client.deps.json
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Client\bin\Debug\net10.0\MaxBots.Client.dll
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Client\bin\Debug\net10.0\MaxBots.Client.pdb
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Client\bin\Debug\net10.0\MaxBots.Meta.dll
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Client\bin\Debug\net10.0\MaxBots.Meta.pdb
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Client\obj\Debug\net10.0\MaxBots..7474E1E5.Up2Date
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Client\obj\Debug\net10.0\MaxBots.Client.dll
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Client\obj\Debug\net10.0\refint\MaxBots.Client.dll
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Client\obj\Debug\net10.0\MaxBots.Client.pdb
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Client\obj\Debug\net10.0\ref\MaxBots.Client.dll
