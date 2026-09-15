@@ -34,6 +34,7 @@ public sealed class MaxApiClient : IDisposable
                 PropertyNamingPolicy = JsonNamingPolicy.SnakeCaseLower,
                 DefaultIgnoreCondition = JsonIgnoreCondition.WhenWritingNull,
                 PropertyNameCaseInsensitive = true,
+                AllowOutOfOrderMetadataProperties = true
             };
     }
 
@@ -73,6 +74,7 @@ public sealed class MaxApiClient : IDisposable
             );
         try
         {
+            Console.WriteLine(json);
             return JsonSerializer.Deserialize<T>(json, JsonOptions)
                 ?? throw new MaxApiRequestException(
                     "MAX API returned a null response.",

@@ -1,11 +1,11 @@
 namespace MaxBots;
 
 public sealed record ApiResponse<T>(
-    [property: JsonPropertyName(OkField)] bool? Ok = null,
-    [property: JsonPropertyName(ErrorCodeField)] int? ErrorCode = null,
-    [property: JsonPropertyName(DescriptionField)] string? Description = null,
-    [property: JsonPropertyName(ParametersField)] ResponseParameters? Parameters = null,
-    [property: JsonPropertyName(ResultField)] T? Result = default
+    [property: JsonPropertyName(ApiResponse<T>.OkField)] bool? Ok = null,
+    [property: JsonPropertyName(ApiResponse<T>.ErrorCodeField)] int? ErrorCode = null,
+    [property: JsonPropertyName(ApiResponse<T>.DescriptionField)] string? Description = null,
+    [property: JsonPropertyName(ApiResponse<T>.ParametersField)] ResponseParameters? Parameters = null,
+    [property: JsonPropertyName(ApiResponse<T>.ResultField)] T? Result = default
 )
 {
     public const string OkField = "ok";

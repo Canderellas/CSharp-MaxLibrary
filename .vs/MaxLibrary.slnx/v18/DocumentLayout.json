@@ -3,32 +3,52 @@
   "WorkspaceRootPath": "E:\\Projects\\telegram-main\\MaxLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.LongPolling\\LongPolling\\BotSession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MaxBots.LongPolling\\LongPolling\\BotSession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0D0A320-A03E-1069-D750-634AF41AA494}|MaxBots.Meta\\MaxBots.Meta.csproj|e:\\projects\\telegram-main\\maxlibrary\\maxbots.meta\\api\\methods\\messages\\response\\postmessageresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D0A320-A03E-1069-D750-634AF41AA494}|MaxBots.Meta\\MaxBots.Meta.csproj|solutionrelative:maxbots.meta\\api\\methods\\messages\\response\\postmessageresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.LongPolling\\LongPolling\\DelegateUpdateConsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MaxBots.LongPolling\\LongPolling\\DelegateUpdateConsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{416EEAE2-8D39-8743-3C15-150128821C33}|MaxBots.Client\\MaxBots.Client.csproj|e:\\projects\\telegram-main\\maxlibrary\\maxbots.client\\maxapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{416EEAE2-8D39-8743-3C15-150128821C33}|MaxBots.Client\\MaxBots.Client.csproj|solutionrelative:maxbots.client\\maxapiclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.LongPolling\\MaxBots.LongPolling.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MaxBots.LongPolling\\MaxBots.LongPolling.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{C0D0A320-A03E-1069-D750-634AF41AA494}|MaxBots.Meta\\MaxBots.Meta.csproj|e:\\projects\\telegram-main\\maxlibrary\\maxbots.meta\\api\\methods\\chats\\deletechatpinmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D0A320-A03E-1069-D750-634AF41AA494}|MaxBots.Meta\\MaxBots.Meta.csproj|solutionrelative:maxbots.meta\\api\\methods\\chats\\deletechatpinmessage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Meta\\MaxApiException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MaxBots.Meta\\MaxApiException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0D0A320-A03E-1069-D750-634AF41AA494}|MaxBots.Meta\\MaxBots.Meta.csproj|e:\\projects\\telegram-main\\maxlibrary\\maxbots.meta\\api\\methods\\chats\\getchatmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D0A320-A03E-1069-D750-634AF41AA494}|MaxBots.Meta\\MaxBots.Meta.csproj|solutionrelative:maxbots.meta\\api\\methods\\chats\\getchatmembers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Client\\MaxApiClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MaxBots.Client\\MaxApiClient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0D0A320-A03E-1069-D750-634AF41AA494}|MaxBots.Meta\\MaxBots.Meta.csproj|e:\\projects\\telegram-main\\maxlibrary\\maxbots.meta\\api\\methods\\chats\\deletechatmembersme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D0A320-A03E-1069-D750-634AF41AA494}|MaxBots.Meta\\MaxBots.Meta.csproj|solutionrelative:maxbots.meta\\api\\methods\\chats\\deletechatmembersme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Meta\\MaxApiRequestException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MaxBots.Meta\\MaxApiRequestException.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C0D0A320-A03E-1069-D750-634AF41AA494}|MaxBots.Meta\\MaxBots.Meta.csproj|e:\\projects\\telegram-main\\maxlibrary\\maxbots.meta\\api\\objects\\message\\buttons\\inlinekeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D0A320-A03E-1069-D750-634AF41AA494}|MaxBots.Meta\\MaxBots.Meta.csproj|solutionrelative:maxbots.meta\\api\\objects\\message\\buttons\\inlinekeyboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.LongPolling\\LongPolling\\MaxBotsLongPollingApplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MaxBots.LongPolling\\LongPolling\\MaxBotsLongPollingApplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{7F900F75-3463-7F9E-C90A-474D541D439C}|MaxBots.LongPolling\\MaxBots.LongPolling.csproj|e:\\projects\\telegram-main\\maxlibrary\\maxbots.longpolling\\longpolling\\botsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F900F75-3463-7F9E-C90A-474D541D439C}|MaxBots.LongPolling\\MaxBots.LongPolling.csproj|solutionrelative:maxbots.longpolling\\longpolling\\botsession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F900F75-3463-7F9E-C90A-474D541D439C}|MaxBots.LongPolling\\MaxBots.LongPolling.csproj|e:\\projects\\telegram-main\\maxlibrary\\maxbots.longpolling\\longpolling\\delegateupdateconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F900F75-3463-7F9E-C90A-474D541D439C}|MaxBots.LongPolling\\MaxBots.LongPolling.csproj|solutionrelative:maxbots.longpolling\\longpolling\\delegateupdateconsumer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D0A320-A03E-1069-D750-634AF41AA494}|MaxBots.Meta\\MaxBots.Meta.csproj|e:\\projects\\telegram-main\\maxlibrary\\maxbots.meta\\maxapiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D0A320-A03E-1069-D750-634AF41AA494}|MaxBots.Meta\\MaxBots.Meta.csproj|solutionrelative:maxbots.meta\\maxapiexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F900F75-3463-7F9E-C90A-474D541D439C}|MaxBots.LongPolling\\MaxBots.LongPolling.csproj|e:\\projects\\telegram-main\\maxlibrary\\maxbots.longpolling\\maxbots.longpolling.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{7F900F75-3463-7F9E-C90A-474D541D439C}|MaxBots.LongPolling\\MaxBots.LongPolling.csproj|solutionrelative:maxbots.longpolling\\maxbots.longpolling.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C0D0A320-A03E-1069-D750-634AF41AA494}|MaxBots.Meta\\MaxBots.Meta.csproj|e:\\projects\\telegram-main\\maxlibrary\\maxbots.meta\\maxapirequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C0D0A320-A03E-1069-D750-634AF41AA494}|MaxBots.Meta\\MaxBots.Meta.csproj|solutionrelative:maxbots.meta\\maxapirequestexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7F900F75-3463-7F9E-C90A-474D541D439C}|MaxBots.LongPolling\\MaxBots.LongPolling.csproj|e:\\projects\\telegram-main\\maxlibrary\\maxbots.longpolling\\longpolling\\maxbotslongpollingapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7F900F75-3463-7F9E-C90A-474D541D439C}|MaxBots.LongPolling\\MaxBots.LongPolling.csproj|solutionrelative:maxbots.longpolling\\longpolling\\maxbotslongpollingapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +58,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "PostMessageResponse.cs",
+              "DocumentMoniker": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Meta\\Api\\Methods\\Messages\\Response\\PostMessageResponse.cs",
+              "RelativeDocumentMoniker": "MaxBots.Meta\\Api\\Methods\\Messages\\Response\\PostMessageResponse.cs",
+              "ToolTip": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Meta\\Api\\Methods\\Messages\\Response\\PostMessageResponse.cs",
+              "RelativeToolTip": "MaxBots.Meta\\Api\\Methods\\Messages\\Response\\PostMessageResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T14:35:55.231Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DeleteChatPinMessage.cs",
+              "DocumentMoniker": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Meta\\Api\\Methods\\Chats\\DeleteChatPinMessage.cs",
+              "RelativeDocumentMoniker": "MaxBots.Meta\\Api\\Methods\\Chats\\DeleteChatPinMessage.cs",
+              "ToolTip": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Meta\\Api\\Methods\\Chats\\DeleteChatPinMessage.cs",
+              "RelativeToolTip": "MaxBots.Meta\\Api\\Methods\\Chats\\DeleteChatPinMessage.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T14:01:57.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GetChatMembers.cs",
+              "DocumentMoniker": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Meta\\Api\\Methods\\Chats\\GetChatMembers.cs",
+              "RelativeDocumentMoniker": "MaxBots.Meta\\Api\\Methods\\Chats\\GetChatMembers.cs",
+              "ToolTip": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Meta\\Api\\Methods\\Chats\\GetChatMembers.cs",
+              "RelativeToolTip": "MaxBots.Meta\\Api\\Methods\\Chats\\GetChatMembers.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T14:01:22.138Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DeleteChatMembersMe.cs",
+              "DocumentMoniker": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Meta\\Api\\Methods\\Chats\\DeleteChatMembersMe.cs",
+              "RelativeDocumentMoniker": "MaxBots.Meta\\Api\\Methods\\Chats\\DeleteChatMembersMe.cs",
+              "ToolTip": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Meta\\Api\\Methods\\Chats\\DeleteChatMembersMe.cs",
+              "RelativeToolTip": "MaxBots.Meta\\Api\\Methods\\Chats\\DeleteChatMembersMe.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T14:01:15.084Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "InlineKeyboard.cs",
+              "DocumentMoniker": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Meta\\Api\\Objects\\Message\\Buttons\\InlineKeyboard.cs",
+              "RelativeDocumentMoniker": "MaxBots.Meta\\Api\\Objects\\Message\\Buttons\\InlineKeyboard.cs",
+              "ToolTip": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Meta\\Api\\Objects\\Message\\Buttons\\InlineKeyboard.cs",
+              "RelativeToolTip": "MaxBots.Meta\\Api\\Objects\\Message\\Buttons\\InlineKeyboard.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-15T14:01:12.61Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
               "Title": "DelegateUpdateConsumer.cs",
               "DocumentMoniker": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.LongPolling\\LongPolling\\DelegateUpdateConsumer.cs",
               "RelativeDocumentMoniker": "MaxBots.LongPolling\\LongPolling\\DelegateUpdateConsumer.cs",
@@ -50,12 +135,11 @@
               "RelativeToolTip": "MaxBots.LongPolling\\LongPolling\\DelegateUpdateConsumer.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T05:28:04.695Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-12T05:28:04.695Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "MaxApiException.cs",
               "DocumentMoniker": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Meta\\MaxApiException.cs",
               "RelativeDocumentMoniker": "MaxBots.Meta\\MaxApiException.cs",
@@ -63,12 +147,11 @@
               "RelativeToolTip": "MaxBots.Meta\\MaxApiException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T04:59:31.783Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-12T04:59:31.783Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 6,
               "Title": "BotSession.cs",
               "DocumentMoniker": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.LongPolling\\LongPolling\\BotSession.cs",
               "RelativeDocumentMoniker": "MaxBots.LongPolling\\LongPolling\\BotSession.cs",
@@ -81,7 +164,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "MaxApiClient.cs",
+              "DocumentMoniker": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Client\\MaxApiClient.cs",
+              "RelativeDocumentMoniker": "MaxBots.Client\\MaxApiClient.cs",
+              "ToolTip": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Client\\MaxApiClient.cs",
+              "RelativeToolTip": "MaxBots.Client\\MaxApiClient.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwCQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-12T05:24:31.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "MaxBots.LongPolling.csproj",
               "DocumentMoniker": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.LongPolling\\MaxBots.LongPolling.csproj",
               "RelativeDocumentMoniker": "MaxBots.LongPolling\\MaxBots.LongPolling.csproj",
@@ -89,12 +185,11 @@
               "RelativeToolTip": "MaxBots.LongPolling\\MaxBots.LongPolling.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2026-08-19T16:22:32.86Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-19T16:22:32.86Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "MaxApiRequestException.cs",
               "DocumentMoniker": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Meta\\MaxApiRequestException.cs",
               "RelativeDocumentMoniker": "MaxBots.Meta\\MaxApiRequestException.cs",
@@ -102,25 +197,11 @@
               "RelativeToolTip": "MaxBots.Meta\\MaxApiRequestException.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T04:59:32.962Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-09-12T04:59:32.962Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MaxApiClient.cs",
-              "DocumentMoniker": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Client\\MaxApiClient.cs",
-              "RelativeDocumentMoniker": "MaxBots.Client\\MaxApiClient.cs",
-              "ToolTip": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.Client\\MaxApiClient.cs",
-              "RelativeToolTip": "MaxBots.Client\\MaxApiClient.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-12T05:24:31.333Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 11,
               "Title": "MaxBotsLongPollingApplication.cs",
               "DocumentMoniker": "E:\\Projects\\telegram-main\\MaxLibrary\\MaxBots.LongPolling\\LongPolling\\MaxBotsLongPollingApplication.cs",
               "RelativeDocumentMoniker": "MaxBots.LongPolling\\LongPolling\\MaxBotsLongPollingApplication.cs",
@@ -128,8 +209,7 @@
               "RelativeToolTip": "MaxBots.LongPolling\\LongPolling\\MaxBotsLongPollingApplication.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAIwCEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-08-19T16:18:59.095Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-08-19T16:18:59.095Z"
             }
           ]
         }

@@ -9,3 +9,5 @@ E:\Projects\telegram-main\MaxLibrary\MaxBots.Meta\obj\Debug\net10.0\MaxBots.Meta
 E:\Projects\telegram-main\MaxLibrary\MaxBots.Meta\obj\Debug\net10.0\refint\MaxBots.Meta.dll
 E:\Projects\telegram-main\MaxLibrary\MaxBots.Meta\obj\Debug\net10.0\MaxBots.Meta.pdb
 E:\Projects\telegram-main\MaxLibrary\MaxBots.Meta\obj\Debug\net10.0\ref\MaxBots.Meta.dll
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Meta\obj\Debug\net10.0\MaxBots.Meta.sourcelink.json
+E:\Projects\telegram-main\MaxLibrary\MaxBots.Meta\obj\Debug\net10.0\MaxBots..EBE932A7.Up2Date

@@ -1,8 +1,8 @@
 namespace MaxBots;
 
 public sealed record Success(
-    [property: JsonPropertyName(SuccessField)] bool IsSuccess = true,
-    [property: JsonPropertyName(MessageField)] string? Message = null
+    [property: JsonPropertyName(Success.SuccessField)] bool IsSuccess = true,
+    [property: JsonPropertyName(Success.MessageField)] string? Message = null
 )
 {
     public const string SuccessField = "success";
