@@ -1,7 +1,8 @@
 namespace MaxBots;
 
 public sealed record InlineKeyboardAttachmentRequest(
-    [property: JsonPropertyName(PayloadField)] InlineKeyboard Payload
+    [property: JsonPropertyName(InlineKeyboardAttachmentRequest.PayloadField)]
+    InlineKeyboard Payload
 ) : AttachmentRequest(TypeValue)
 {
     public const string TypeValue = "inline_keyboard";

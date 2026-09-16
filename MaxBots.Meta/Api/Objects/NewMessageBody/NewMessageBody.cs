@@ -1,12 +1,16 @@
 namespace MaxBots;
 
 public sealed record NewMessageBody(
-    [property: JsonPropertyName(TextField)] string? Text = null,
-    [property: JsonPropertyName(AttachmentsField)]
-        IReadOnlyList<AttachmentRequest>? Attachments = null,
-    [property: JsonPropertyName(LinkField)] NewMessageLink? Link = null,
-    [property: JsonPropertyName(NotifyField)] bool Notify = true,
-    [property: JsonPropertyName(FormatField)] string? Format = null
+    [property: JsonPropertyName(NewMessageBody.TextField)]
+    string? Text = null,
+    [property: JsonPropertyName(NewMessageBody.AttachmentsField)]
+    IReadOnlyList<AttachmentRequest>? Attachments = null,
+    [property: JsonPropertyName(NewMessageBody.LinkField)]
+    NewMessageLink? Link = null,
+    [property: JsonPropertyName(NewMessageBody.NotifyField)] 
+    bool Notify = true,
+    [property: JsonPropertyName(NewMessageBody.FormatField)] 
+    string? Format = null
 )
 {
     public const string TextField = "text";

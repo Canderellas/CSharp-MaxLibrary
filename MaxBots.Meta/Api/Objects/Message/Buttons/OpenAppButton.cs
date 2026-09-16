@@ -2,9 +2,12 @@ namespace MaxBots;
 
 public sealed record OpenAppButton(
     string Text,
-    [property: JsonPropertyName(WebAppField)] string WebApp,
-    [property: JsonPropertyName(ContactIdField)] long ContactId,
-    [property: JsonPropertyName(PayloadField)] string Payload
+    [property: JsonPropertyName(OpenAppButton.WebAppField)]
+    string WebApp,
+    [property: JsonPropertyName(OpenAppButton.ContactIdField)]
+    long ContactId,
+    [property: JsonPropertyName(OpenAppButton.PayloadField)]
+    string Payload
 ) : InlineKeyboardButton(TypeValue, Text)
 {
     public const string TypeValue = "open_app";

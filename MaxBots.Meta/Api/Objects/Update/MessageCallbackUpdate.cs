@@ -2,9 +2,12 @@ namespace MaxBots;
 
 public sealed record MessageCallbackUpdate(
     long Timestamp,
-    [property: JsonPropertyName(CallbackField)] Callback Callback,
-    [property: JsonPropertyName(MessageField)] Message? Message = null,
-    [property: JsonPropertyName(UserLocaleField)] string? UserLocale = null
+    [property: JsonPropertyName(MessageCallbackUpdate.CallbackField)]
+    Callback Callback,
+    [property: JsonPropertyName(MessageCallbackUpdate.MessageField)]
+    Message? Message = null,
+    [property: JsonPropertyName(MessageCallbackUpdate.UserLocaleField)]
+    string? UserLocale = null
 ) : Update(Timestamp)
 {
     public const string TypeValue = "message_callback";

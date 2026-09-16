@@ -1,8 +1,8 @@
 namespace MaxBots;
 
 public sealed record InlineKeyboard(
-    [property: JsonPropertyName(ButtonsField)]
-        IReadOnlyList<IReadOnlyList<InlineKeyboardButton>> Buttons
+    [property: JsonPropertyName(InlineKeyboard.ButtonsField)]
+    IReadOnlyList<IReadOnlyList<InlineKeyboardButton>> Buttons
 )
 {
     public const string ButtonsField = "buttons";

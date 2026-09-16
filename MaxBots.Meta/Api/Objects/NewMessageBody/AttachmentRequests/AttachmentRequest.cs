@@ -1,6 +1,6 @@
 namespace MaxBots;
 
-[JsonPolymorphic(TypeDiscriminatorPropertyName = TypeField)]
+[JsonPolymorphic(TypeDiscriminatorPropertyName = AttachmentRequest.TypeField)]
 [JsonDerivedType(typeof(ImageAttachmentRequest), ImageAttachmentRequest.TypeValue)]
 [JsonDerivedType(typeof(VideoAttachmentRequest), VideoAttachmentRequest.TypeValue)]
 [JsonDerivedType(typeof(AudioAttachmentRequest), AudioAttachmentRequest.TypeValue)]

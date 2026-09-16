@@ -2,9 +2,12 @@ namespace MaxBots;
 
 public sealed record ChatTitleChangedUpdate(
     long Timestamp,
-    [property: JsonPropertyName(ChatIdField)] long ChatId,
-    [property: JsonPropertyName(UserField)] User User,
-    [property: JsonPropertyName(TitleField)] string Title
+    [property: JsonPropertyName(ChatTitleChangedUpdate.ChatIdField)]
+    long ChatId,
+    [property: JsonPropertyName(ChatTitleChangedUpdate.UserField)]
+    User User,
+    [property: JsonPropertyName(ChatTitleChangedUpdate.TitleField)] 
+    string Title
 ) : Update(Timestamp)
 {
     public const string TypeValue = "chat_title_changed";

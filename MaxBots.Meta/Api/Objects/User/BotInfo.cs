@@ -7,10 +7,14 @@ public sealed record BotInfo(
     string? Username = null,
     bool IsBot = true,
     long LastActivityTime = 0,
-    [property: JsonPropertyName(DescriptionField)] string? Description = null,
-    [property: JsonPropertyName(AvatarUrlField)] string? AvatarUrl = null,
-    [property: JsonPropertyName(FullAvatarUrlField)] string? FullAvatarUrl = null,
-    [property: JsonPropertyName(CommandsField)] IReadOnlyList<BotCommand>? Commands = null
+    [property: JsonPropertyName(BotInfo.DescriptionField)]
+    string? Description = null,
+    [property: JsonPropertyName(BotInfo.AvatarUrlField)]
+    string? AvatarUrl = null,
+    [property: JsonPropertyName(BotInfo.FullAvatarUrlField)]
+    string? FullAvatarUrl = null,
+    [property: JsonPropertyName(BotInfo.CommandsField)]
+    IReadOnlyList<BotCommand>? Commands = null
 ) : User(UserId, FirstName, LastName, Username, IsBot, LastActivityTime)
 {
     public const string DescriptionField = "description";

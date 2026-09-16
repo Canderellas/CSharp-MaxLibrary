@@ -1,7 +1,8 @@
 namespace MaxBots;
 
 public sealed record StickerAttachmentRequest(
-    [property: JsonPropertyName(PayloadField)] object Payload
+    [property: JsonPropertyName(StickerAttachmentRequest.PayloadField)]
+    object Payload
 ) : AttachmentRequest(TypeValue)
 {
     public const string TypeValue = "sticker";

@@ -1,13 +1,20 @@
 namespace MaxBots;
 
 public sealed record Message(
-    [property: JsonPropertyName(SenderField)] User? Sender,
-    [property: JsonPropertyName(RecipientField)] Recipient? Recipient,
-    [property: JsonPropertyName(TimestampField)] long Timestamp,
-    [property: JsonPropertyName(LinkField)] LinkedMessage? Link = null,
-    [property: JsonPropertyName(BodyField)] MessageBody? Body = null,
-    [property: JsonPropertyName(StatField)] MessageStat? Stat = null,
-    [property: JsonPropertyName(UrlField)] string? Url = null
+    [property: JsonPropertyName(Message.SenderField)]
+    User? Sender,
+    [property: JsonPropertyName(Message.RecipientField)]
+    Recipient? Recipient,
+    [property: JsonPropertyName(Message.TimestampField)]
+    long Timestamp,
+    [property: JsonPropertyName(Message.LinkField)]
+    LinkedMessage? Link = null,
+    [property: JsonPropertyName(Message.BodyField)]
+    MessageBody? Body = null,
+    [property: JsonPropertyName(Message.StatField)]
+    MessageStat? Stat = null,
+    [property: JsonPropertyName(Message.UrlField)]
+    string? Url = null
 )
 {
     public const string SenderField = "sender";

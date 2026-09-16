@@ -1,9 +1,12 @@
 namespace MaxBots;
 
 public sealed record NewMessageLink(
-    [property: JsonPropertyName(TypeField)] string Type,
-    [property: JsonPropertyName(UrlField)] string? Url = null,
-    [property: JsonPropertyName(MessageIdField)] string? MessageId = null
+    [property: JsonPropertyName(NewMessageLink.TypeField)]
+    string Type,
+    [property: JsonPropertyName(NewMessageLink.UrlField)] 
+    string? Url = null,
+    [property: JsonPropertyName(NewMessageLink.MessageIdField)] 
+    string? MessageId = null
 )
 {
     public const string TypeField = "type";

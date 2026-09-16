@@ -2,9 +2,12 @@ namespace MaxBots;
 
 public sealed record BotStoppedUpdate(
     long Timestamp,
-    [property: JsonPropertyName(ChatIdField)] long ChatId,
-    [property: JsonPropertyName(UserField)] User User,
-    [property: JsonPropertyName(UserLocaleField)] string? UserLocale = null
+    [property: JsonPropertyName(BotStoppedUpdate.ChatIdField)] 
+    long ChatId,
+    [property: JsonPropertyName(BotStoppedUpdate.UserField)] 
+    User User,
+    [property: JsonPropertyName(BotStoppedUpdate.UserLocaleField)]
+    string? UserLocale = null
 ) : Update(Timestamp)
 {
     public const string TypeValue = "bot_stopped";

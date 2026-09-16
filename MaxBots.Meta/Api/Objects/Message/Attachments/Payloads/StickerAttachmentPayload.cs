@@ -1,8 +1,10 @@
 namespace MaxBots;
 
 public sealed record StickerAttachmentPayload(
-    [property: JsonPropertyName(UrlField)] string Url,
-    [property: JsonPropertyName(CodeField)] string Code
+    [property: JsonPropertyName(StickerAttachmentPayload.UrlField)]
+    string Url,
+    [property: JsonPropertyName(StickerAttachmentPayload.CodeField)]
+    string Code
 )
 {
     public const string UrlField = "url";

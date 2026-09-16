@@ -2,9 +2,12 @@ namespace MaxBots;
 
 public sealed record BotRemovedUpdate(
     long Timestamp,
-    [property: JsonPropertyName(UserField)] User User,
-    [property: JsonPropertyName(ChatIdField)] long ChatId,
-    [property: JsonPropertyName(IsChannelField)] bool IsChannel
+    [property: JsonPropertyName(BotRemovedUpdate.UserField)] 
+    User User,
+    [property: JsonPropertyName(BotRemovedUpdate.ChatIdField)] 
+    long ChatId,
+    [property: JsonPropertyName(BotRemovedUpdate.IsChannelField)]
+    bool IsChannel
 ) : Update(Timestamp)
 {
     public const string TypeValue = "bot_removed";

@@ -5,5 +5,8 @@
     <RootNamespace>MaxBots</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>MaxBots.Meta</PackageId>
+    <Description>Общие модели и DTO для Max Bot API.</Description>
+    <PackageTags>max;maxbot;api;models</PackageTags>
   </PropertyGroup>
 </Project>

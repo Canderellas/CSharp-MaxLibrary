@@ -2,9 +2,12 @@ namespace MaxBots;
 
 public sealed record DialogRemovedUpdate(
     long Timestamp,
-    [property: JsonPropertyName(ChatIdField)] long ChatId,
-    [property: JsonPropertyName(UserField)] User User,
-    [property: JsonPropertyName(UserLocaleField)] string? UserLocale = null
+    [property: JsonPropertyName(DialogRemovedUpdate.ChatIdField)]
+    long ChatId,
+    [property: JsonPropertyName(DialogRemovedUpdate.UserField)] 
+    User User,
+    [property: JsonPropertyName(DialogRemovedUpdate.UserLocaleField)]
+    string? UserLocale = null
 ) : Update(Timestamp)
 {
     public const string TypeValue = "dialog_removed";

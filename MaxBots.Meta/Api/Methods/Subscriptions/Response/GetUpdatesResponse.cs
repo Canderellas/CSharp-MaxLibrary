@@ -1,8 +1,10 @@
 namespace MaxBots;
 
 public sealed record GetUpdatesResponse(
-    [property: JsonPropertyName(UpdatesField)] IReadOnlyList<Update> Updates,
-    [property: JsonPropertyName(MarkerField)] long? Marker = null
+    [property: JsonPropertyName(GetUpdatesResponse.UpdatesField)]
+    IReadOnlyList<Update> Updates,
+    [property: JsonPropertyName(GetUpdatesResponse.MarkerField)]
+    long? Marker = null
 )
 {
     public const string UpdatesField = "updates";

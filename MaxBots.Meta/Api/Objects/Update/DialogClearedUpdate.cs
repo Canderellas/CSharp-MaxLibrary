@@ -2,9 +2,12 @@ namespace MaxBots;
 
 public sealed record DialogClearedUpdate(
     long Timestamp,
-    [property: JsonPropertyName(ChatIdField)] long ChatId,
-    [property: JsonPropertyName(UserField)] User User,
-    [property: JsonPropertyName(UserLocaleField)] string? UserLocale = null
+    [property: JsonPropertyName(DialogClearedUpdate.ChatIdField)]
+    long ChatId,
+    [property: JsonPropertyName(DialogClearedUpdate.UserField)] 
+    User User,
+    [property: JsonPropertyName(DialogClearedUpdate.UserLocaleField)]
+    string? UserLocale = null
 ) : Update(Timestamp)
 {
     public const string TypeValue = "dialog_cleared";

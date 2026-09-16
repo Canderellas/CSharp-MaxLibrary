@@ -1,8 +1,10 @@
 namespace MaxBots;
 
 public sealed record FileAttachmentPayload(
-    [property: JsonPropertyName(UrlField)] string Url,
-    [property: JsonPropertyName(TokenField)] string Token
+    [property: JsonPropertyName(FileAttachmentPayload.UrlField)]
+    string Url,
+    [property: JsonPropertyName(FileAttachmentPayload.TokenField)]
+    string Token
 )
 {
     public const string UrlField = "url";

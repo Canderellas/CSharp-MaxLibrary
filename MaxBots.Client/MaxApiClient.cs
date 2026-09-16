@@ -6,7 +6,7 @@ using System.Text.Json.Serialization;
 namespace MaxBots;
 
 /// <summary>Asynchronous HTTP client for the MAX Bot API.</summary>
-public sealed class MaxApiClient : IDisposable
+public sealed class MaxApiClient : IMaxApiClient
 {
     private readonly HttpClient _httpClient;
     private readonly bool _disposeHttpClient;

@@ -2,8 +2,10 @@ namespace MaxBots;
 
 public sealed record CallbackButton(
     string Text,
-    [property: JsonPropertyName(PayloadField)] string Payload,
-    [property: JsonPropertyName(IntentField)] string? Intent = "default"
+    [property: JsonPropertyName(CallbackButton.PayloadField)]
+    string Payload,
+    [property: JsonPropertyName(CallbackButton.IntentField)]
+    string? Intent = "default"
 ) : InlineKeyboardButton(TypeValue, Text)
 {
     public const string TypeValue = "callback";

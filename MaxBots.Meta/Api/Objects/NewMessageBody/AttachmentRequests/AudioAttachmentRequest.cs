@@ -1,7 +1,8 @@
 namespace MaxBots;
 
 public sealed record AudioAttachmentRequest(
-    [property: JsonPropertyName(PayloadField)] object Payload
+    [property: JsonPropertyName(AudioAttachmentRequest.PayloadField)]
+    object Payload
 ) : AttachmentRequest(TypeValue)
 {
     public const string TypeValue = "audio";

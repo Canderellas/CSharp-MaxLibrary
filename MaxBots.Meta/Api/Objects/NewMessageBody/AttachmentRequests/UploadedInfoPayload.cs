@@ -1,8 +1,10 @@
 namespace MaxBots;
 
 public sealed record UploadedInfoPayload(
-    [property: JsonPropertyName(TokenField)] string Token,
-    [property: JsonPropertyName(TypeField)] string Type
+    [property: JsonPropertyName(UploadedInfoPayload.TokenField)]
+    string Token,
+    [property: JsonPropertyName(UploadedInfoPayload.TypeField)] 
+    string Type
 )
 {
     public const string TokenField = "token";

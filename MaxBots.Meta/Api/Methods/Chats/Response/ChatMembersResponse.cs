@@ -1,8 +1,10 @@
 namespace MaxBots;
 
 public sealed record ChatMembersResponse(
-    [property: JsonPropertyName(MembersField)] IReadOnlyList<ChatMember> Members,
-    [property: JsonPropertyName(MarkerField)] long? Marker = null
+    [property: JsonPropertyName(ChatMembersResponse.MembersField)]
+    IReadOnlyList<ChatMember> Members,
+    [property: JsonPropertyName(ChatMembersResponse.MarkerField)]
+    long? Marker = null
 )
 {
     public const string MembersField = "members";

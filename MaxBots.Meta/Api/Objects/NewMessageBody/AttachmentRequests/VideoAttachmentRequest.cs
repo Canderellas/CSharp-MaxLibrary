@@ -1,7 +1,8 @@
 namespace MaxBots;
 
 public sealed record VideoAttachmentRequest(
-    [property: JsonPropertyName(PayloadField)] object Payload
+    [property: JsonPropertyName(VideoAttachmentRequest.PayloadField)]
+    object Payload
 ) : AttachmentRequest(TypeValue)
 {
     public const string TypeValue = "video";

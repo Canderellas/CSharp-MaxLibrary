@@ -1,7 +1,8 @@
 namespace MaxBots;
 
 public sealed record ImageAttachment(
-    [property: JsonPropertyName(PayloadField)] PhotoAttachmentPayload Payload
+    [property: JsonPropertyName(ImageAttachment.PayloadField)]
+    PhotoAttachmentPayload Payload
 ) : Attachment(TypeValue)
 {
     public const string TypeValue = "image";

@@ -1,13 +1,20 @@
 namespace MaxBots;
 
 public sealed record Chat(
-    [property: JsonPropertyName(ChatIdField)] long ChatId,
-    [property: JsonPropertyName(TypeField)] string? Type = null,
-    [property: JsonPropertyName(StatusField)] string? Status = null,
-    [property: JsonPropertyName(TitleField)] string? Title = null,
-    [property: JsonPropertyName(IconField)] Image? Icon = null,
-    [property: JsonPropertyName(LastEventTimeField)] long? LastEventTime = null,
-    [property: JsonPropertyName(ParticipantsCountField)] int? ParticipantsCount = null
+    [property: JsonPropertyName(Chat.ChatIdField)]
+    long ChatId,
+    [property: JsonPropertyName(Chat.TypeField)]
+    string? Type = null,
+    [property: JsonPropertyName(Chat.StatusField)]
+    string? Status = null,
+    [property: JsonPropertyName(Chat.TitleField)]
+    string? Title = null,
+    [property: JsonPropertyName(Chat.IconField)]
+    Image? Icon = null,
+    [property: JsonPropertyName(Chat.LastEventTimeField)]
+    long? LastEventTime = null,
+    [property: JsonPropertyName(Chat.ParticipantsCountField)]
+    int? ParticipantsCount = null
 )
 {
     public const string ChatIdField = "chat_id";

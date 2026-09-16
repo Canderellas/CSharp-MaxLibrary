@@ -16,7 +16,10 @@ namespace MaxBots;
 [JsonDerivedType(typeof(BotStartedUpdate), BotStartedUpdate.TypeValue)]
 [JsonDerivedType(typeof(BotStoppedUpdate), BotStoppedUpdate.TypeValue)]
 [JsonDerivedType(typeof(ChatTitleChangedUpdate), ChatTitleChangedUpdate.TypeValue)]
-public abstract record Update([property: JsonPropertyName(TimestampField)] long Timestamp)
+public abstract record Update(
+    [property: JsonPropertyName(Update.TimestampField)]
+    long Timestamp
+    )
 {
     public const string UpdateTypeField = "update_type";
     public const string TimestampField = "timestamp";

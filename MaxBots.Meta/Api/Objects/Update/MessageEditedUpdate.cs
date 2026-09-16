@@ -2,8 +2,10 @@ namespace MaxBots;
 
 public sealed record MessageEditedUpdate(
     long Timestamp,
-    [property: JsonPropertyName(MessageField)] Message Message,
-    [property: JsonPropertyName(UserLocaleField)] string? UserLocale = null
+    [property: JsonPropertyName(MessageEditedUpdate.MessageField)]
+    Message Message,
+    [property: JsonPropertyName(MessageEditedUpdate.UserLocaleField)]
+    string? UserLocale = null
 ) : Update(Timestamp)
 {
     public const string TypeValue = "message_edited";

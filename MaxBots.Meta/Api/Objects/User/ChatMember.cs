@@ -7,8 +7,10 @@ public sealed record ChatMember(
     string? Username = null,
     bool IsBot = false,
     long LastActivityTime = 0,
-    [property: JsonPropertyName(IsOwnerField)] bool IsOwner = false,
-    [property: JsonPropertyName(IsAdminField)] bool IsAdmin = false
+    [property: JsonPropertyName(ChatMember.IsOwnerField)]
+    bool IsOwner = false,
+    [property: JsonPropertyName(ChatMember.IsAdminField)]
+    bool IsAdmin = false
 ) : User(UserId, FirstName, LastName, Username, IsBot, LastActivityTime)
 {
     public const string IsOwnerField = "is_owner";

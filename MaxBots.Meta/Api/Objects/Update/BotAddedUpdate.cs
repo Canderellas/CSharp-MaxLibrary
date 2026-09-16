@@ -2,9 +2,12 @@ namespace MaxBots;
 
 public sealed record BotAddedUpdate(
     long Timestamp,
-    [property: JsonPropertyName(UserField)] User User,
-    [property: JsonPropertyName(ChatIdField)] long ChatId,
-    [property: JsonPropertyName(IsChannelField)] bool IsChannel
+    [property: JsonPropertyName(BotAddedUpdate.UserField)]
+    User User,
+    [property: JsonPropertyName(BotAddedUpdate.ChatIdField)] 
+    long ChatId,
+    [property: JsonPropertyName(BotAddedUpdate.IsChannelField)]
+    bool IsChannel
 ) : Update(Timestamp)
 {
     public const string TypeValue = "bot_added";

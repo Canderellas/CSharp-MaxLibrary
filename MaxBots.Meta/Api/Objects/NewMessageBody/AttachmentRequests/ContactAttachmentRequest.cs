@@ -1,7 +1,8 @@
 namespace MaxBots;
 
 public sealed record ContactAttachmentRequest(
-    [property: JsonPropertyName(PayloadField)] object Payload
+    [property: JsonPropertyName(ContactAttachmentRequest.PayloadField)]
+    object Payload
 ) : AttachmentRequest(TypeValue)
 {
     public const string TypeValue = "contact";

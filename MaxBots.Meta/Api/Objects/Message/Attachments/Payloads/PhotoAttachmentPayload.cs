@@ -1,9 +1,12 @@
 namespace MaxBots;
 
 public sealed record PhotoAttachmentPayload(
-    [property: JsonPropertyName(PhotoIdField)] long? PhotoId = null,
-    [property: JsonPropertyName(TokenField)] string? Token = null,
-    [property: JsonPropertyName(UrlField)] string? Url = null
+    [property: JsonPropertyName(PhotoAttachmentPayload.PhotoIdField)]
+    long? PhotoId = null,
+    [property: JsonPropertyName(PhotoAttachmentPayload.TokenField)]
+    string? Token = null,
+    [property: JsonPropertyName(PhotoAttachmentPayload.UrlField)]
+    string? Url = null
 )
 {
     public const string PhotoIdField = "photo_id";

@@ -2,10 +2,14 @@ namespace MaxBots;
 
 public sealed record DialogMutedUpdate(
     long Timestamp,
-    [property: JsonPropertyName(ChatIdField)] long ChatId,
-    [property: JsonPropertyName(UserField)] User User,
-    [property: JsonPropertyName(MutedUntilField)] long MutedUntil,
-    [property: JsonPropertyName(UserLocaleField)] string? UserLocale = null
+    [property: JsonPropertyName(DialogMutedUpdate.ChatIdField)]
+    long ChatId,
+    [property: JsonPropertyName(DialogMutedUpdate.UserField)]
+    User User,
+    [property: JsonPropertyName(DialogMutedUpdate.MutedUntilField)] 
+    long MutedUntil,
+    [property: JsonPropertyName(DialogMutedUpdate.UserLocaleField)] 
+    string? UserLocale = null
 ) : Update(Timestamp)
 {
     public const string TypeValue = "dialog_muted";

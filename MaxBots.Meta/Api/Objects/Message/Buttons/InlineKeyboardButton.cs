@@ -1,6 +1,6 @@
 namespace MaxBots;
 
-[JsonPolymorphic(TypeDiscriminatorPropertyName = TypeField)]
+[JsonPolymorphic(TypeDiscriminatorPropertyName = InlineKeyboardButton.TypeField)]
 [JsonDerivedType(typeof(CallbackButton), CallbackButton.TypeValue)]
 [JsonDerivedType(typeof(LinkButton), LinkButton.TypeValue)]
 [JsonDerivedType(typeof(MessageButton), MessageButton.TypeValue)]
@@ -8,8 +8,10 @@ namespace MaxBots;
 [JsonDerivedType(typeof(RequestGeoLocationButton), RequestGeoLocationButton.TypeValue)]
 [JsonDerivedType(typeof(OpenAppButton), OpenAppButton.TypeValue)]
 public abstract record InlineKeyboardButton(
-    [property: JsonIgnore] string Type,
-    [property: JsonPropertyName(TextField)] string Text
+    [property: JsonIgnore]
+    string Type,
+    [property: JsonPropertyName(InlineKeyboardButton.TextField)]
+    string Text
 )
 {
     public const string TypeField = "type";

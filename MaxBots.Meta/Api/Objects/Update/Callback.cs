@@ -1,10 +1,14 @@
 namespace MaxBots;
 
 public sealed record Callback(
-    [property: JsonPropertyName(TimestampField)] long Timestamp,
-    [property: JsonPropertyName(CallbackIdField)] string CallbackId,
-    [property: JsonPropertyName(PayloadField)] string Payload,
-    [property: JsonPropertyName(UserField)] User User
+    [property: JsonPropertyName(Callback.TimestampField)] 
+    long Timestamp,
+    [property: JsonPropertyName(Callback.CallbackIdField)] 
+    string CallbackId,
+    [property: JsonPropertyName(Callback.PayloadField)] 
+    string Payload,
+    [property: JsonPropertyName(Callback.UserField)] 
+    User User
 )
 {
     public const string TimestampField = "timestamp";

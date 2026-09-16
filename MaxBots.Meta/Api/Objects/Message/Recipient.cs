@@ -1,8 +1,10 @@
 namespace MaxBots;
 
 public sealed record Recipient(
-    [property: JsonPropertyName(ChatIdField)] long ChatId,
-    [property: JsonPropertyName(ChatTypeField)] string? ChatType = null
+    [property: JsonPropertyName(Recipient.ChatIdField)] 
+    long ChatId,
+    [property: JsonPropertyName(Recipient.ChatTypeField)] 
+    string? ChatType = null
 )
 {
     public const string ChatIdField = "chat_id";

@@ -5,6 +5,9 @@
     <RootNamespace>MaxBots</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>MaxBots.Client</PackageId>
+    <Description>HTTP-клиент для Max Bot API.</Description>
+    <PackageTags>max;maxbot;api;client</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\MaxBots.Meta\MaxBots.Meta.csproj" />

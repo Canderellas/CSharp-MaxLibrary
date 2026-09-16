@@ -1,8 +1,10 @@
 namespace MaxBots;
 
 public sealed record BotCommand(
-    [property: JsonPropertyName(NameField)] string Name,
-    [property: JsonPropertyName(DescriptionField)] string Description
+    [property: JsonPropertyName(BotCommand.NameField)]
+    string Name,
+    [property: JsonPropertyName(BotCommand.DescriptionField)]
+    string Description
 )
 {
     public const string NameField = "name";

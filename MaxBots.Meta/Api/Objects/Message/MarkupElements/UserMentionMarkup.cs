@@ -3,7 +3,8 @@ namespace MaxBots;
 public sealed record UserMentionMarkup(
     int From,
     int Length,
-    [property: JsonPropertyName(UserIdField)] long UserId
+    [property: JsonPropertyName(UserMentionMarkup.UserIdField)]
+    long UserId
 ) : MarkupElement(TypeValue, From, Length)
 {
     public const string TypeValue = "user_mention";

@@ -9,9 +9,12 @@ namespace MaxBots;
 [JsonDerivedType(typeof(LinkMarkup), LinkMarkup.TypeValue)]
 [JsonDerivedType(typeof(UserMentionMarkup), UserMentionMarkup.TypeValue)]
 public abstract record MarkupElement(
-    [property: JsonIgnore] string Type,
-    [property: JsonPropertyName(FromField)] int From,
-    [property: JsonPropertyName(LengthField)] int Length
+    [property: JsonIgnore]
+    string Type,
+    [property: JsonPropertyName(MarkupElement.FromField)]
+    int From,
+    [property: JsonPropertyName(MarkupElement.LengthField)]
+    int Length
 )
 {
     public const string TypeField = "type";

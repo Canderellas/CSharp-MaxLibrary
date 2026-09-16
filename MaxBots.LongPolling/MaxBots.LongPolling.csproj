@@ -5,6 +5,9 @@
     <RootNamespace>MaxBots</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <PackageId>MaxBots.LongPolling</PackageId>
+    <Description>Long Polling для получения апдейтов Max Bot API.</Description>
+    <PackageTags>max;maxbot;api;longpolling</PackageTags>
   </PropertyGroup>
   <ItemGroup>
     <ProjectReference Include="..\MaxBots.Meta\MaxBots.Meta.csproj" />

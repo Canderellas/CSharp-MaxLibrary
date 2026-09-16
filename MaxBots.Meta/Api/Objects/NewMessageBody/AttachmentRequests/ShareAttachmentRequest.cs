@@ -1,7 +1,9 @@
 namespace MaxBots;
 
 public sealed record ShareAttachmentRequest(
-    [property: JsonPropertyName(PayloadField)] object Payload
+    [property: JsonPropertyName(ShareAttachmentRequest.PayloadField)]
+    object Payload
+    
 ) : AttachmentRequest(TypeValue)
 {
     public const string TypeValue = "share";

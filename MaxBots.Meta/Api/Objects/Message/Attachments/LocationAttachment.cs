@@ -1,8 +1,10 @@
 namespace MaxBots;
 
 public sealed record LocationAttachment(
-    [property: JsonPropertyName(LatitudeField)] double Latitude,
-    [property: JsonPropertyName(LongitudeField)] double Longitude
+    [property: JsonPropertyName(LocationAttachment.LatitudeField)]
+    double Latitude,
+    [property: JsonPropertyName(LocationAttachment.LongitudeField)]
+    double Longitude
 ) : Attachment(TypeValue)
 {
     public const string TypeValue = "location";

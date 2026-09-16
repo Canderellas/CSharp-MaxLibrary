@@ -1,9 +1,12 @@
 namespace MaxBots;
 
 public sealed record FileAttachment(
-    [property: JsonPropertyName(PayloadField)] FileAttachmentPayload Payload,
-    [property: JsonPropertyName(FileNameField)] string FileName,
-    [property: JsonPropertyName(SizeField)] long Size
+    [property: JsonPropertyName(FileAttachment.PayloadField)]
+    FileAttachmentPayload Payload,
+    [property: JsonPropertyName(FileAttachment.FileNameField)]
+    string FileName,
+    [property: JsonPropertyName(FileAttachment.SizeField)]
+    long Size
 ) : Attachment(TypeValue)
 {
     public const string TypeValue = "file";
