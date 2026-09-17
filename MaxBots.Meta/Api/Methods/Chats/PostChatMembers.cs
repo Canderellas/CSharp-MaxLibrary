@@ -1,8 +1,9 @@
 namespace MaxBots;
 
-public sealed class PostChatMembers : BotApiMethodSuccess
+public sealed class PostChatMembers : BotApiMethod<PostChatMembersResponse>
 {
     public const string Path = "chats";
+    public const string ChatIdField = "chatId";
     public const string UserIdsField = "user_ids";
 
     public PostChatMembers(long chatId, IReadOnlyList<long> userIds)
@@ -13,6 +14,11 @@ public sealed class PostChatMembers : BotApiMethodSuccess
 
     public long ChatId { get; }
     public IReadOnlyList<long> UserIds { get; }
+
+    public override HttpMethod HttpMethod
+    {
+        get { return HttpMethod.Post; }
+    }
 
     public override string Method
     {

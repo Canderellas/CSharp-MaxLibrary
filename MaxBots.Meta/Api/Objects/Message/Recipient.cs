@@ -4,7 +4,7 @@ public sealed record Recipient(
     [property: JsonPropertyName(Recipient.ChatIdField)] 
     long ChatId,
     [property: JsonPropertyName(Recipient.ChatTypeField)] 
-    string? ChatType = null
+    ChatType? ChatType = null
 )
 {
     public const string ChatIdField = "chat_id";

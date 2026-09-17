@@ -1,17 +1,16 @@
-using System.Net.Http;
-
 namespace MaxBots;
 
-public sealed class GetChatPinMessage : BotApiMethod<Message>
+public sealed class GetChatPinMessage : BotApiMethod<GetChatPinMessageResponse>
 {
     public const string Path = "chats";
+    public const string ChatIdField = "chatId";
 
-    public GetChatPinMessage(long chatId)
+    public GetChatPinMessage(string chatId)
     {
         ChatId = chatId;
     }
 
-    public long ChatId { get; }
+    public string ChatId { get; }
 
     public override HttpMethod HttpMethod
     {

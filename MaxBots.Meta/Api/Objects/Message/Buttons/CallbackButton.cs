@@ -5,7 +5,7 @@ public sealed record CallbackButton(
     [property: JsonPropertyName(CallbackButton.PayloadField)]
     string Payload,
     [property: JsonPropertyName(CallbackButton.IntentField)]
-    string? Intent = "default"
+    Intent? Intent = Intent.Default
 ) : InlineKeyboardButton(TypeValue, Text)
 {
     public const string TypeValue = "callback";

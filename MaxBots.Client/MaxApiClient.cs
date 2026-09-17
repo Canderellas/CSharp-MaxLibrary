@@ -1,4 +1,5 @@
 using System.Net.Http.Headers;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Text.Json;
 using System.Text.Json.Serialization;
@@ -10,6 +11,10 @@ public sealed class MaxApiClient : IMaxApiClient
 {
     private readonly HttpClient _httpClient;
     private readonly bool _disposeHttpClient;
+    private readonly HttpClientHandler handler = new HttpClientHandler
+    {
+        ServerCertificateCustomValidationCallback = (message, cert, chain, sslPolicyErrors) => true
+    };
 
     public string BotToken { get; }
     public MaxUrl Endpoint { get; }
@@ -26,7 +31,7 @@ public sealed class MaxApiClient : IMaxApiClient
         BotToken = botToken;
         Endpoint = endpoint ?? MaxUrl.Default;
         _disposeHttpClient = httpClient is null;
-        _httpClient = httpClient ?? new HttpClient();
+        _httpClient = new HttpClient(handler);
         JsonOptions =
             jsonOptions
             ?? new JsonSerializerOptions

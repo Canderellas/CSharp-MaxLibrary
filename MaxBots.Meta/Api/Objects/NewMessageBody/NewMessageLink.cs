@@ -2,7 +2,7 @@ namespace MaxBots;
 
 public sealed record NewMessageLink(
     [property: JsonPropertyName(NewMessageLink.TypeField)]
-    string Type,
+    MessageLinkType Type,
     [property: JsonPropertyName(NewMessageLink.UrlField)] 
     string? Url = null,
     [property: JsonPropertyName(NewMessageLink.MessageIdField)] 

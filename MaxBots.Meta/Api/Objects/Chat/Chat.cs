@@ -4,9 +4,9 @@ public sealed record Chat(
     [property: JsonPropertyName(Chat.ChatIdField)]
     long ChatId,
     [property: JsonPropertyName(Chat.TypeField)]
-    string? Type = null,
+    ChatType? Type = null,
     [property: JsonPropertyName(Chat.StatusField)]
-    string? Status = null,
+    ChatStatus? Status = null,
     [property: JsonPropertyName(Chat.TitleField)]
     string? Title = null,
     [property: JsonPropertyName(Chat.IconField)]

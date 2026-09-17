@@ -8,5 +8,11 @@
     <PackageId>MaxBots.Meta</PackageId>
     <Description>Общие модели и DTO для Max Bot API.</Description>
     <PackageTags>max;maxbot;api;models</PackageTags>
+    <DockerDefaultTargetOS>Linux</DockerDefaultTargetOS>
   </PropertyGroup>
+  <ItemGroup>
+    <Content Include="..\..\MaxBot\.dockerignore">
+      <Link>.dockerignore</Link>
+    </Content>
+  </ItemGroup>
 </Project>

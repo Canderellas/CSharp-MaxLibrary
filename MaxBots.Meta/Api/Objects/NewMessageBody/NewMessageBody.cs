@@ -10,7 +10,7 @@ public sealed record NewMessageBody(
     [property: JsonPropertyName(NewMessageBody.NotifyField)] 
     bool Notify = true,
     [property: JsonPropertyName(NewMessageBody.FormatField)] 
-    string? Format = null
+    TextFormat? Format = null
 )
 {
     public const string TextField = "text";
